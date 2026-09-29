@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101411">
+  <meta name="description" content="CODEX / IDEAS IN MOTION. A 30-second motion design reel, with original visuals and soundtrack.">
+  <meta property="og:type" content="video.other">
+  <meta property="og:title" content="CODEX / IDEAS IN MOTION">
+  <meta property="og:description" content="把想法，變成動態。30 秒動態設計展示卷。">
+  <meta property="og:image" content="https://jamic710808.github.io/codex-motion-reel/poster.jpg">
+  <meta property="og:video" content="https://jamic710808.github.io/codex-motion-reel/CODEX-Ideas-in-Motion-1080p60.mp4">
+  <meta property="og:video:type" content="video/mp4">
+  <meta name="twitter:card" content="player">
+  <meta name="twitter:title" content="CODEX / IDEAS IN MOTION">
+  <meta name="twitter:description" content="把想法，變成動態。30 秒動態設計展示卷。">
+  <meta name="twitter:image" content="https://jamic710808.github.io/codex-motion-reel/poster.jpg">
+  <title>CODEX / Ideas in Motion</title>
+  <style>
+    :root{color-scheme:dark;font-family:Arial,"Microsoft JhengHei",sans-serif;background:#101411;color:#f3f5ef}
+    *{box-sizing:border-box}
+    body{min-height:100svh;margin:0;display:flex;flex-direction:column;background:#101411}
+    header{height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(20px,5vw,80px);border-bottom:1px solid #f3f5ef35;font:13px Consolas,monospace;letter-spacing:0}
+    .brand{display:flex;align-items:center;gap:12px;color:#f3f5ef;text-decoration:none;font-weight:800}
+    .mark{width:11px;height:11px;background:#b9f45d;transform:rotate(45deg)}
+    .meta{color:#a9b0a8}
+    main{width:min(1320px,90vw);margin:auto;display:grid;grid-template-columns:1fr auto;align-items:end;gap:20px 40px;padding:34px 0 42px}
+    h1{grid-column:1/-1;margin:0;font-family:Impact,"Arial Black",sans-serif;font-weight:900;font-size:clamp(43px,8vw,98px);line-height:.92;color:#f3f5ef}
+    h1 span{color:#b9f45d}
+    .screen{grid-column:1/-1;width:100%;aspect-ratio:16/9;max-height:74svh;background:#080a08;box-shadow:0 18px 70px #0008}
+    video{display:block;width:100%;height:100%;object-fit:contain}
+    .caption{margin:0;color:#c5cbc2;font-size:15px;line-height:1.8}
+    .caption strong{color:#f3f5ef;font-weight:600}
+    .download{align-self:center;padding:12px 16px;border:1px solid #566052;color:#b9f45d;text-decoration:none;font:13px Consolas,monospace;transition:background .18s ease,color .18s ease}
+    .download:hover{background:#b9f45d;color:#101411}
+    footer{height:48px;padding:0 clamp(20px,5vw,80px);display:flex;align-items:center;justify-content:space-between;border-top:1px solid #f3f5ef25;color:#778078;font:11px Consolas,monospace}
+    @media(max-width:580px){main{width:92vw;gap:16px;padding:26px 0 30px}.screen{max-height:none}.caption{font-size:13px}.download{padding:11px 10px;font-size:11px}header{height:58px}.meta{font-size:11px}}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="./"><span class="mark" aria-hidden="true"></span>CODEX <span style="color:#b9f45d">/</span> MOTION</a>
+    <span class="meta">ORIGINAL SHOWREEL&nbsp; / &nbsp;30 SEC</span>
+  </header>
+  <main>
+    <h1>IDEAS IN <span>MOTION.</span></h1>
+    <div class="screen">
+      <video controls playsinline preload="metadata" poster="poster.jpg" aria-label="CODEX 動態設計展示卷">
+        <source src="CODEX-Ideas-in-Motion-1080p60.mp4" type="video/mp4">
+        您的瀏覽器不支援 MP4 影片播放。
+      </video>
+    </div>
+    <p class="caption"><strong>我是 Codex，讓想法開始動。</strong><br>30 秒動態設計展示卷&nbsp; · &nbsp;原創視覺與配樂</p>
+    <a class="download" href="CODEX-Ideas-in-Motion-1080p60.mp4" download>DOWNLOAD MP4&nbsp; ↓</a>
+  </main>
+  <footer><span>CODEX / IDEAS IN MOTION</span><span>1920 × 1080&nbsp; / &nbsp;60 FPS</span></footer>
+</body>
+</html>
